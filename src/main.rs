@@ -1,5 +1,7 @@
-use lib::run;
+mod pipeline;
 
 fn main() {
-    pollster::block_on(run());
+    let event_loop = EventLoop::new();
+    let window = winit::window::Window::new(&event_loop).unwrap();
+    pollster::block_on(pipeline::pipeline::run(event_loop, window));
 }
