@@ -35,5 +35,8 @@ struct Chunks {
 }
 ```
 
-this would encompass the chunk in a 3d array of chunks
+this would encompass the chunk in a 3d array of chunks. However, this does put into question: How do I store voxel data? Using a SVO probably isn't effective. maybe i could look into doing brickmaps?  
+
+----
+I'm thinking for scale, the player would be about 3 voxels or 2 voxels tall.
 
