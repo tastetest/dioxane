@@ -40,3 +40,6 @@ this would encompass the chunk in a 3d array of chunks. However, this does put i
 ----
 I'm thinking for scale, the player would be about 3 voxels or 2 voxels tall.
 
+
+I also would want to add in stuff such as dynamic blocks like water, leaves blowing in the wind etc
+
