@@ -1,5 +1,7 @@
 # What would a voxel look like?
 
+## just start with perlin noise
+
 these are the simple qualities I would want my voxels to have. Let's go over them one by one.
 ```
 struct Voxel {
